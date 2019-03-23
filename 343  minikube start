@@ -1,0 +1,73 @@
+  343  minikube start
+  344  kubectl get service
+  345  minikube service name-hello-world-service --url
+  346  history | grep minikube
+  347  minikube ssh
+  348  kubectl get service
+  349  kubectl run -i -tty busybox --image =busybox --restart=Never
+  350  kubectl run -i -tty busybox --image =busybox 
+  351  kubectl run -i -tt busybox --image =busybox --restart=Never
+  352  docker image
+  353  docker images
+  354  docker pull busybox
+  355  kubectl run -i -tty busybox --image =busybox --restart=Never
+  356  kubectl run -i -t busybox --image=busybox --restart=Never
+  357  kubectl get service
+  358  kubectl create -f /home/bala/Bala/java/kuberneties/replication-controller/helloworld-repl-controller.yml 
+  359  kubectl get services
+  360  kubectl get controllers
+  361  kubectl get controller
+  362  kubectl get pods
+  363  kubectl delete pod nodehelloworld.example.com
+  364  kubectl get pods
+  365  kubectl delete pod helloworld-controller-92dcl
+  366  kubectl get pods
+  367  kubectl get dashboard
+  368  minikube dashboard
+  369  kubectl delete pod helloworld-controller-57hw7
+  370  minikube dashboard
+  371  kubectl get rc
+  372  kubectl scale --replicas= 3 rc/helloworld-controller
+  373  kubectl scale --replicas=3 rc/helloworld-controller
+  374  kubectl get rc
+  375  minikube dashboard
+  376  kubectl scale --replicas=1 rc/helloworld-controller
+  377  minikube dashboard
+  378  kubectl get services
+  379  kubectl get pod
+  380  minikube dashboard
+  381  minikube start
+  382  kubectl create -f /home/bala/Bala/java/kuberneties/deployment/helloworld.yml
+  383  minikube dashboard
+  384  minikube start
+  385  npm install
+  386  npm start
+  387  minikube start
+  388  minikube status
+  389  kubectl get pod
+  390  kubectl drain helloworld-controller-9tpsp
+  391  kubectl --help
+  392  kubectl get pod
+  393  kubectl delete helloworld-controller-9tpsp
+  394  kubectl delete -all
+  395  kubectl delete pods-all
+  396  kubectl delete pods -all
+  397  kubectl delete pods --all
+  398  kubectl get pod
+  399  kubectl run -i --tty busybox --image=busybox --restart=Never -- sh
+  400  kubectl get pod
+  401  kubectl get service
+  402  kubectl describe node name-hello-world-service
+  403  kubectl describe service name-hello-world-service
+  404  kubectl autoscale
+  405  kubectl describe service name-hello-world-service
+  406  kubectl autoscale deployment foo --min=2 --max=10
+  407  kubectl autoscale deployment name-hello-world-service --min=2 --max=4
+  408  kubectl autoscale deployment helloworld1 --min=2 --max=4
+  409  kubectl get pod
+  410  kubectl scale deployment  --min=2 --max=10
+  411  history | grep rc
+  412  kubectl get pod
+  413  kubectl get deployments
+  414  kubectl get node
+  415  kubectl --help

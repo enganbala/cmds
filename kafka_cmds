@@ -1,0 +1,38 @@
+
+kafka-server-start.sh config/server.properties 
+zookeeper-server-start.sh config/zookeeper.properties
+
+kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic first_topic_1 --group my-third-application
+
+    kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic first_topic --group first_frp_consumer
+    kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic first_topic --group first_frp_consumer
+    kafkatool.sj
+    kafkatool.sh
+    ./kafkatool.sh
+    chmod -777 kafkatool.sh
+    ./kafkatool.sh
+    chmod -666 kafkatool.sh
+    ./kafkatool.sh
+    sudo ./kafkatool.sh
+    sudo kafkatool.sh
+    ./kafkatool.sh
+    apt-get install kafkacat
+    sudo apt-get install kafkacat
+    kafkacat
+    kafkacat -L
+    kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic first_topic_1 --group my-third-application
+    kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic first_topic --group my-third-application
+    kafka-server-start.sh config/server.properties 
+    ./kafkatool.sh
+    cd kafka
+    history | grep kafka
+    ./kafkatool.sh
+    kafkatool.sh
+    kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic first_topic_1 --group my-third-application
+    kafka-server-start.sh config/server.properties 
+    cd kafka
+    kafka-server-start.sh config/server.properties 
+    cd kafka
+    cd /home/bala/IdeaProjects/kafkafirstproject
+
+
